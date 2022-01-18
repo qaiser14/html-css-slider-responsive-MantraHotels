@@ -1,0 +1,1323 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    overflow-x: hidden;
+    /* overflow-y: hidden;  */
+}
+
+#containerNav{
+
+    position: relative; 
+    min-height: 130vh;
+    min-width: 100vw;
+    background-color: #ffffff;
+    overflow-x: hidden;
+
+    
+
+}
+
+.bluethinBar{ 
+
+    position: relative;
+    top: 0%;
+    /* height: 1vh; */
+    width: 100vw;
+    /* background-color: #c3d4eb; */
+    border-bottom: #a9c4ee 4px inset;
+    
+}
+
+#bluelogoBar{
+
+    position: relative;
+    top: 0%;
+    height: 15vh;
+    width: 100vw;
+    background-image: linear-gradient(180deg, #C3D4EB, #ffffff);   
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active{
+
+    background-color: khaki;
+}
+
+
+#liblueBar{
+    /* display: flex; */
+    position: relative;
+    top: 0%;
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    height: 5vh;
+    width: 100vw;
+    background-image: linear-gradient(180deg, #51ABDB, #0687CC)
+}
+
+.mantraLogo{
+
+    height: 3.4em;
+    width: 8.5em;
+    padding-left: 5%;
+    
+}
+
+.resNum{
+
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-right: 5%;
+    color: rgb(102,102,102);
+    /* letter-spacing: 1px; */
+    text-align: center;
+}
+
+.resNum100{
+
+    color: rgb(0,124,195);
+}
+
+.resNum100:hover{
+
+    border-bottom: 2px solid rgb(0,124,195);
+
+}
+
+.resNum200{
+
+    opacity: 1;
+    letter-spacing: 2px;
+}
+
+.menu100{
+
+    list-style: none;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-end;
+    align-items: center; 
+    /* flex-flow: row wrap; */
+    font-size: 1em;
+    color: #ffffff;
+    
+
+}
+
+.men200:hover{
+
+    border-bottom: 1px solid #ffffff;
+}
+
+.menu200{
+    /* padding: 50px; */
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    margin-right: 1.8em;
+    /* padding-right: 2%; */
+    /* margin-right: 3%; */
+    /* align-items: center; */
+    cursor: pointer;
+    
+}
+
+.menu200:hover{
+
+    border-bottom: 1px solid #ffffff;
+    
+}
+
+
+.slider1M{
+
+    background-image: url(./MantraImages/home-slider-salt.jpg);
+    position: absolute; 
+    width: 100vw;
+    top: 15.9%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: scroll;
+    animation: picM1 20s infinite; 
+    background-position: 80% 15%; 
+    /* border: 2px solid black;   */
+     
+}
+
+
+.slider2M{
+
+    background-image: url(./MantraImages/home-slider-russell.jpg);
+    position: absolute; 
+    width: 100vw;
+    top: 15.9%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: scroll;
+    animation: picM2 20s infinite;
+    background-position: 80% 15%; 
+    /* border: 2px solid black;  */
+    
+}
+
+.slider3M{
+
+    background-image: url(./MantraImages/home-slider-2-bond-st.jpg);
+    position: absolute; 
+    width: 100vw;
+    top: 15.9%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: scroll;
+    animation: picM3 20s infinite; 
+    background-position: 80% 15%; 
+    /* border: 2px solid black;  */
+    
+}
+
+.slider4M{
+
+    background-image: url(./MantraImages/home-slider-amphora.jpg);
+    position: absolute; 
+    width: 100vw;
+    top: 15.9%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: scroll;
+    animation: picM4 20s infinite; 
+    background-position: 80% 15%; 
+    /* border: 2px solid black;  */
+    
+}
+
+.slider5M{
+
+    background-image: url(./MantraImages/home-slider-city-central.jpg);
+    position: absolute; 
+    width: 100vw;
+    top: 15.9%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: scroll;
+    animation: picM5 20s infinite;
+    background-position: 80% 15%; 
+    /* border: 2px solid black;  */
+    
+}
+
+.slider6M{
+
+    background-image: url(./MantraImages/home-slider-lake-tekapo.jpg);
+    position: absolute; 
+    width: 100vw;
+    top: 15.9%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 80% 15%; 
+    animation: picM6 20s infinite;
+    /* border: 2px solid black;  */
+    
+}
+
+.slider7M{
+
+    background-image: url(./MantraImages/home-slider-sirocco.jpg);
+    position: absolute; 
+    top: 15.9%;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: scroll;
+    animation: picM7 20s infinite;
+    background-position: 80% 15%; 
+    /* border: 2px solid black;  */
+    
+}
+
+.slider8M{
+
+    background-image: url(./MantraImages/home-slider-southbankmelb.jpg);
+    position: absolute; 
+    width: 100vw;
+    top: 15.9%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: scroll;
+    animation: picM8 20s infinite; 
+    background-position: 80% 55%; 
+    /* border: 2px solid black;  */
+    
+}
+
+
+
+@keyframes picM1 {
+
+    0% {opacity: 1}
+    
+    12.5% {opacity: 0;}
+
+    25% {opacity: 0;}
+
+    37.5% {opacity: 0;}
+
+    50% {opacity: 0;}
+
+    62.5% {opacity: 0;}
+
+    75% {opacity: 0;}
+
+    87.5% {opacity: 0;}
+    
+    100% {opacity: 1;}
+}
+
+@keyframes picM2 {
+
+    0% {opacity: 0}
+    
+    12.5% {opacity: 1;}
+
+    25% {opacity: 0;}
+
+    37.5% {opacity: 0;}
+
+    50% {opacity: 0;}
+
+    62.5% {opacity: 0;}
+
+    75% {opacity: 0;}
+
+    87.5% {opacity: 0;}
+    
+    100% {opacity: 0;}
+}
+
+@keyframes picM3 {
+
+    0% {opacity: 0}
+    
+    12.5% {opacity: 0;}
+
+    25% {opacity: 1;}
+
+    37.5% {opacity: 0;}
+
+    50% {opacity: 0;}
+
+    62.5% {opacity: 0;}
+
+    75% {opacity: 0;}
+
+    87.5% {opacity: 0;}
+    
+    100% {opacity: 0;}
+   
+}
+
+@keyframes picM4 {
+
+    0% {opacity: 0}
+    
+    12.5% {opacity: 0;}
+
+    25% {opacity: 0;}
+
+    37.5% {opacity: 1;}
+
+    50% {opacity: 0;}
+
+    62.5% {opacity: 0;}
+
+    75% {opacity: 0;}
+
+    87.5% {opacity: 0;}
+    
+    100% {opacity: 0;}
+    
+}
+
+@keyframes picM5 {
+
+    0% {opacity: 0}
+    
+    12.5% {opacity: 0;}
+
+    25% {opacity: 0;}
+
+    37.5% {opacity: 0;}
+
+    50% {opacity: 1;}
+
+    62.5% {opacity: 0;}
+
+    75% {opacity: 0;}
+
+    87.5% {opacity: 0;}
+    
+    100% {opacity: 0;}
+}
+
+@keyframes picM6 {
+
+    0% {opacity: 0}
+    
+    12.5% {opacity: 0;}
+
+    25% {opacity: 0;}
+
+    37.5% {opacity: 0;}
+
+    50% {opacity: 0;}
+
+    62.5% {opacity: 1;}
+
+    75% {opacity: 0;}
+
+    87.5% {opacity: 0;}
+    
+    100% {opacity: 0;}
+    
+}
+
+@keyframes picM7 {
+
+    0% {opacity: 0}
+    
+    12.5% {opacity: 0;}
+
+    25% {opacity: 0;}
+
+    37.5% {opacity: 0;}
+
+    50% {opacity: 0;}
+
+    62.5% {opacity: 0;}
+
+    75% {opacity: 1;}
+
+    87.5% {opacity: 0;}
+    
+    100% {opacity: 0;}
+    
+}
+
+
+@keyframes picM8 {
+
+    0% {opacity: 0}
+    
+    12.5% {opacity: 0;}
+
+    25% {opacity: 0;}
+
+    37.5% {opacity: 0;}
+
+    50% {opacity: 0;}
+
+    62.5% {opacity: 0;}
+
+    75% {opacity: 0;}
+
+    87.5% {opacity: 1;}
+    
+    100% {opacity: 0;}
+    
+}
+
+#selectDest{
+
+    position: absolute;
+    top: 67%;
+    left: 6%;
+    border: 1px solid #ffffff;
+    height: 20%;
+    width: 85%;
+    background-color: rgba(7, 113, 173, 0.6);
+    border-radius: .5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.data100{
+
+    font-size: 1em;
+    color: #ffffff;
+    margin-left: 1%; 
+
+}
+
+.data200{
+
+    font-size: 1em;
+    color: #ffffff;
+    margin-left: 1.2%; 
+
+}
+
+.data300{
+
+    font-size: 1em;
+    color: #ffffff;
+    margin-left: 2.5%; 
+
+}
+
+.butt100{
+
+    background-image: linear-gradient(red, orange);
+    height: 2.2em;
+    width: 11.5em;
+    color: #ffffff;
+    border: none;
+    margin-top: 10%;
+    font-size: 1em;
+    cursor: pointer;
+    
+}
+
+
+.label100{
+
+    height: 2.5em;
+    width: 26em;
+    /* box-sizing: content-box; */
+
+} 
+
+.label200{
+
+    height: 2.5em;
+    width: 7.8em;
+    box-sizing: content-box;
+
+} 
+
+.label300{
+
+    height: 2.5em;
+    width: 10em;
+    box-sizing: content-box;
+
+}
+
+#containerDest{
+
+    position: relative; 
+    background-color: #ffffff;
+    height: 140vh;
+    width:100%;
+    /* border: 2px solid black; */
+    /* box-sizing: border-box; */
+    
+} 
+
+#leftsliderD{
+
+    /* position: absolute; */
+    float: left;
+    margin-left: 5%;
+    width: 42%;
+    /* top: 1%; */
+    /* left: 4%; */
+    height: 36.9%;
+    /* border: 2px solid black; */
+    overflow: hidden;  
+}
+
+
+.dream1{
+
+    height: 20em;
+    width: 100%; 
+
+}
+
+.dream2{
+
+    height: 20em;
+    width: 100%; 
+
+}
+
+.sliderD1{
+
+    position: relative;
+    top: 0%;
+    z-index: 1;
+    animation-name: dreams2;
+    animation-duration: 30s; 
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite;
+
+}
+
+.sliderD2{
+
+    position: relative;
+    top: -100.1%;
+    z-index: 2;
+    animation-name: dreams3;
+    animation-duration: 30s; 
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite; 
+
+} 
+
+.sliderD3{
+
+    position: relative;
+    top: -200.5%;
+    z-index: 3; 
+    animation-name: dreams4;
+    animation-duration: 30s; 
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite; 
+
+} 
+
+
+@keyframes dreams5 {
+
+    0% {z-index: 2;}
+    
+    25% {z-index:0;}
+    
+    50% {z-index:0;}
+    
+    75% {z-index:0;}
+    
+    100% {z-index: 2;}
+        
+}
+
+@keyframes dreams6 {
+
+    0% {z-index: 0;}
+    
+    25% {z-index:0;}
+    
+    50% {z-index:3;}
+    
+    75% {z-index:0;}
+    
+    100% {z-index: 0;}
+        
+}
+
+@keyframes dreams7 {
+
+    0% {z-index: 0;}
+    
+    25% {z-index:1;}
+    
+    50% {z-index:0;}
+    
+    75% {z-index:1;}
+    
+    100% {z-index: 0;}
+        
+}
+
+
+#rightsliderD{
+
+    float: right;
+    margin-right: 5%;
+    width: 42%;
+    height: 36.9%;
+    border: 4px solid #ffffff; 
+    /* overflow: hidden;   */
+}
+
+.sliderD4{
+
+    position: relative;
+    top: 0%;
+    animation-name: dreams2;
+    animation-duration: 30s; 
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+
+.sliderD5{
+
+    position: relative;
+    top: -100.1%;
+    z-index: 2;
+    animation-name: dreams3;
+    animation-duration: 30s; 
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite; 
+
+} 
+
+.sliderD6{
+
+    position: relative;
+    top: -200.5%;
+    z-index: 3; 
+    animation-name: dreams4;
+    animation-duration: 30s; 
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite; 
+
+} 
+
+@keyframes dreams2 {
+
+    0% {z-index: 1;}
+    
+    25% {z-index:0;}
+    
+    50% {z-index:0;}
+    
+    75% {z-index:0;}
+    
+    100% {z-index: 1;}
+        
+}
+
+@keyframes dreams3 {
+
+    0% {z-index: 0;}
+    
+    25% {z-index:2;}
+    
+    50% {z-index:0;}
+    
+    75% {z-index:2;}
+    
+    100% {z-index: 0;}
+        
+}
+
+@keyframes dreams4 {
+
+    0% {z-index: 0;}
+    
+    25% {z-index:0;}
+    
+    50% {z-index:3;}
+    
+    75% {z-index:0;}
+    
+    100% {z-index: 0;}
+        
+}
+
+
+#trendingD{
+
+    position: absolute;
+    /* border: 2px solid black; */
+    height: 50vh;
+    width: 80vw;
+    top: 54%;
+    left: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.trendHdg{
+
+    position: relative;
+    top: 11%;
+    left: 9%;
+    right: 0%;
+    /* border: 2px solid black; */
+    height: 6vh;
+    width: 35vh;
+    display: flex;
+    align-items: center;
+}
+
+.trendCSS{
+
+    font-size: 1.5em;
+    font-weight: 400;
+    color: rgb(0, 124, 195);
+}
+
+.melbournE{
+
+    height: 48vh;
+    width: 16.3vw;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+
+.city1{
+
+    height: 23vh;
+    width: 16vw;
+
+}
+
+.cityHdg1{
+
+    font-size: 1.4em;
+    color: rgb(0, 124, 195);
+    font-weight: 400;
+}
+
+.cityPara1{
+
+
+    font-size: 1em;
+    color: rgb(102, 102, 102);
+    padding-top: 2%;
+    line-height: 1.5em;
+}
+
+.stateHdg1{
+
+    padding-top: 0.5em;
+}
+
+.canberrA{
+
+    height: 48vh;
+    width: 16.3vw;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+
+.sunshineCoast{
+
+    height: 48vh;
+    width: 16.3vw;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+
+.northQLD{
+
+    height: 48vh;
+    width: 16.3vw;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+
+#celebrateM{
+
+    position: relative;
+    width: 100%;
+    height: 140vh;
+    background-color: #ffffff;
+    
+}
+
+.mantraCel{
+
+    position: absolute;
+    /* border: 2px solid black; */
+    height: 52vh;
+    width: 90vw;
+    top: 0%;
+    left: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.mantraDay{
+
+    height: 50vh;
+    width: 42vw;
+    /* border: 2px solid black; */
+}
+
+.city2{
+
+    height: 36vh;
+    width: 42vw;
+}
+
+.cityPara2{
+
+
+    font-size: 1em;
+    color: rgb(102, 102, 102);
+    padding-top: -2%;
+    line-height: 1.2em;
+}
+
+.fpostS{
+
+    position: absolute;
+    /* border: 2px solid black; */
+    height: 40vh;
+    width: 90vw;
+    top: 42%;
+    left: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.hawaI{
+
+    position: relative;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    height: 28vh;
+    width: 28vw;
+    /* border: 2px solid black; */
+    cursor: pointer;
+
+}
+
+.hawaI:hover{
+
+    background-color: rgb(238, 238, 238);
+
+}
+
+.schooL{
+
+    position: relative;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    height: 28vh;
+    width: 28vw;
+    /* border: 2px solid black; */
+    cursor: pointer;
+
+}
+
+.schooL:hover{
+
+    background-color: rgb(238, 238, 238);
+
+}
+
+.melbournE200{
+
+    position: relative;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    height: 28vh;
+    width: 28vw;
+    /* border: 2px solid black; */
+    cursor: pointer;
+
+}
+
+.melbournE200:hover{
+
+    background-color: rgb(238, 238, 238);
+
+}
+
+.ftr100{
+
+    height: 22vh;
+    width: 28vw;
+    margin-top: 0%;
+    
+}
+
+.ftr200{
+
+    margin: 2% 16%;
+    font-size: 14px;
+    color: rgb(0, 140, 220);
+
+}
+
+.ftr300{
+
+    margin: 2% 5%;
+    font-size: 14px;
+    color: rgb(0, 140, 220);
+
+}
+
+.ftr400{
+
+    margin: 2% 12%;
+    font-size: 14px;
+    color: rgb(0, 140, 220);
+
+}
+
+
+@media screen and (max-width: 1126px){
+
+    #leftsliderD,
+    #rightsliderD{
+
+        width: 42%;
+        height: 30%;
+    
+    } 
+    
+
+    .dream1{
+
+        height: 16.17em;
+        width: 100%;
+    
+    }
+
+    .dream2{
+
+        height: 16.17em;
+        width: 100%;
+    
+    }
+
+    .sliderD3{
+
+        margin-top: 0.4%;
+    }
+     
+    .sliderD4{
+
+        margin-top: -0.5%;
+    }
+
+
+    .sliderD6{
+
+        margin-top: 0.18%;
+    }
+
+    .cityPara1{
+
+        font-size: 0.7em;
+    }
+
+    .trendHdg{
+
+        top: 12%;
+    }
+
+
+    .label100{
+
+        height: 2.5em;
+        width: 17em;
+        box-sizing: content-box;
+
+    }   
+    
+    .label200{
+
+        height: 2.5em;
+        width: 4.8em;
+        box-sizing: content-box;
+    
+    } 
+    
+    .label300{
+    
+        height: 2.5em;
+        width: 8em;
+        box-sizing: content-box;
+    
+    }
+
+    .butt100{
+
+        width: 7em;
+        margin-top: 16%;
+    }
+
+    .data300{
+
+        margin-left: 1.4%; 
+    
+    }
+
+
+
+
+@media screen and (max-width: 991px){
+
+   .resNum200{
+
+    opacity: 0;
+   
+    }
+
+    #bluelogoBar{
+
+        background-image: linear-gradient(180deg, #ffffff, #ffffff)
+        
+    }
+    
+    .sliderD4{
+
+    margin-top: 0.09%;
+
+    }
+
+    #containerNav{
+
+        min-height: 190vh;
+    }
+
+    .slider1M, .slider2M,.slider3M,
+    .slider4M, .slider5M, .slider6M,
+    .slider7M, .slider8M{
+
+        top: 10.9%;
+    }
+
+
+    #selectDest{
+
+        position: absolute;
+        top: 65%;
+        left: 6%;
+        height: 26%;
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        z-index: 25;
+        
+    }
+
+    .label100{
+
+        width: 23em;
+    }
+
+    .label200{
+
+        width: 15.1em;
+    }
+
+    .label300{
+
+        width: 23em;
+    }
+
+    .butt100{
+
+        width: 19.3em;
+        margin-top: 5%;
+    }
+
+    #leftsliderD,
+    #rightsliderD{
+
+        margin-top: -8%;
+    
+    }
+    
+    .trendHdg{
+
+        top: 3%;
+    }
+
+    #trendingD{
+
+        top: 32%;
+        height: 60vh;
+        width: 82vw;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+
+    .melbournE, .sunshineCoast{
+
+        width: 32.5vw;
+        height: 46vh;        
+    }
+
+    .canberrA, .northQLD{
+
+        opacity: 0;
+    }
+
+    .city1{
+
+        width: 32vw;
+    }
+
+    .cityPara1{
+
+        font-size: 1.1em;
+    }
+
+    .mantraCel{
+
+        top: -20%;
+    }
+
+    .fpostS{
+
+        top: 20%;
+    }
+
+    .cityHdg1{
+
+        font-size: 1.1em;
+    }
+
+    .cityPara2{
+
+        font-size: 0.8em;
+    }
+
+    .ftr100{
+
+        height: 18vh;
+    }   
+
+    .ftr200, .ftr300,
+    .ftr400{
+
+        font-size: .8em;
+        text-align: center;
+    }
+
+@media screen and (max-width: 828px) {
+    
+    .menu100{
+
+        color: transparent;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    .resNum100{
+
+        font-size: 0.8em;
+    }
+
+    .mantraLogo{
+
+        height: 2.4em;
+        width: 6.5em;
+    }
+
+    #selectDest{
+
+        position: absolute;
+        top: 65%;
+        left: 6%;
+        height: 34%;
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .label100{
+
+        width: 74vw;
+    }
+
+    .label200{
+
+        width: 24vw;
+    }
+
+    .label300{
+
+        width: 34vw;
+    }
+
+    .butt100{
+
+        width: 40vw;
+        margin-top: 6%;
+    }
+
+    
+    #leftsliderD
+    {
+
+        float: none;
+        margin-top:  4%;
+        margin-left: 7%;
+        width: 85vw;
+        
+    }
+
+    #rightsliderD{
+
+        opacity: 0;
+
+    }
+
+    .trendHdg{
+
+        top: 30%;
+    }
+
+    #trendingD{
+
+        top: 70%;
+    }
+    
+    .mantraCel{
+
+        top: 20%;
+    }
+
+    .fpostS{
+
+        top: 40%;
+    }
+
+}
+
+
+@media screen and (max-width: 480px){
+
+    .resNum100{
+
+        color: transparent;
+     
+    }
+
+    .mantraLogo{
+
+        height: 2.2em;
+        width: 6em;
+    }
+
+}
+
